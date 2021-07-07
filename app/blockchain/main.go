@@ -8,5 +8,5 @@ import (
 
 func main() {
 	blockChain := blockchain.NewBlockChain()
-	fmt.Printf("%+v", blockChain.GetLastBlock())
+	fmt.Printf("%+v\n", blockChain.GetLastBlock())
 }
